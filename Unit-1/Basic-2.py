@@ -28,3 +28,12 @@ divmod(a, b) -> (a // b, a % b) dono ek saath deta hai
 
 max(a, b, ...), min(a, b, ...) -> sabse bada / chhota value
 """
+
+
+"""
+~Membership & Identity (Python ke special operators):
+
+in / not in: kya koi character/value kisi sequence mein hai? ("a" in "cat" -> True)
+
+is / is not: kya do variables same memory object ko point kar rahe hain?
+"""
