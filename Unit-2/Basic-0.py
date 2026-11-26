@@ -1,0 +1,14 @@
+# Lists — Mutable
+# A list is a collection in which you can store multiple values, and can also change them later.
+
+num = [10, 20, 30, 40]
+num.append(50)
+num.insert(2,70)
+num.remove(20)
+
+print(num[2])
+print(num)
+print(num.pop())
+print(num)
+num.sort()
+print(num)
