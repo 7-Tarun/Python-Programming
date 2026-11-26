@@ -1,7 +1,7 @@
 # Lists — Mutable
 # A list is a collection in which you can store multiple values, and can also change them later.
 
-num = [10, 20, 30, 40]
+num = [10, 20, 30.12, 40, 12.5]
 num.append(50)
 num.insert(2,70)
 num.remove(20)
@@ -11,4 +11,8 @@ print(num)
 print(num.pop())
 print(num)
 num.sort()
+num.append("Rahul")
 print(num)
+
+# nums.sort()       # Modifies the original list and returns nothing (None);
+# sorted(nums)      # Returns a new sorted list.
