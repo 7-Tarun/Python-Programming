@@ -23,3 +23,6 @@ a.speak()
 # a.bark()
 b.speak()
 b.bark()
+
+print(issubclass(Dog, Animal))
+print(isinstance(Animal, Dog))
