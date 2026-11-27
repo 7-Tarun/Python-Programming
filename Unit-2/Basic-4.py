@@ -1,6 +1,6 @@
 # Class, Object, Constructor (__init__) aur self
 
-class Student:
+class Student:  #class
     college = "RU" #Class Variable
 
     def __init__(self, name):
@@ -9,7 +9,7 @@ class Student:
     def display(self):      # Instance Method
         print(f"{self.name} {self.college}")
 
-s1 = Student("Aman")
+s1 = Student("Aman")    #object
 s2 = Student("Riya")
 s1.display()
 print(s2.name, s2.college)

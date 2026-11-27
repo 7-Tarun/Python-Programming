@@ -1,17 +1,12 @@
-# Polymorphism — Method Overriding
-# Polymorphism ka basic practical example: same method name, different behaviour.
+class Variable:     #class
+    college = "RU"      #Class variable
 
+    def __init__(self, roll, name):
+        self.roll = roll    #Instance variable
+        self.name = name
 
-class Animal:
-    def speak(self):
-        print("Some sound")
+    def display(self):      #Instance Method
+        print(f"{self.roll} {Variable.college} {self.name}")
 
-class Dog(Animal):
-    def speak(self):  # Overriding
-        print("Bark")
-
-a = Animal()
-d = Dog()
-
-a.speak()
-d.speak()
+s1 = Variable(21,"Rohan")       #Object
+s1.display()
