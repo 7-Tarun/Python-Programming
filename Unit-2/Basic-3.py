@@ -11,4 +11,4 @@ print("Union: ",a | b)
 print("Intersection: ",a & b)
 
 # Difference — It is in A, but not in B. Method: a.difference(b)
-print("Difference: ",a - b) 
+print("Difference: ",a - b)

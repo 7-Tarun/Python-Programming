@@ -14,5 +14,8 @@ num.sort()
 num.append("Rahul")
 print(num)
 
+print(20 not in num)
+print(20 in num)
+
 # nums.sort()       # Modifies the original list and returns nothing (None);
 # sorted(nums)      # Returns a new sorted list.
